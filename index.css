@@ -1,0 +1,399 @@
+body {
+	background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 125px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.imgproduto {
+	width: 200px;
+	height: 200px;
+}
+
+.imgicone {
+	width: 70px;
+	height: 50px;
+}
+
+header {
+	margin: auto;
+}
+
+nav {
+	background-color: red;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: pink;
+	padding: auto;
+	width: 950px;
+	margin: auto;
+	font-size: 23px;
+	text-shadow: 3px 2px black;
+}
+
+footer {
+	background-color: red;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: pink;
+	width: 950px;
+	margin: auto;
+	padding: 1px;
+	text-align: center;
+	clear: both;
+	font-size: 10px;
+}
+
+section {
+	background-color: red;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: pink;
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	clear: both;
+	font-size: 17px;
+	padding: 25px;
+}
+
+aside {
+	background-color: red;
+    border-radius: 5px;
+    border-style: solid;
+	border-width: 2px;
+	border-color: pink;
+    width: 920px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    padding-left: 15px
+    float: bottom;
+    margin: auto;
+    text-align: center;    
+}
+
+p {
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-style: normal;	
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-family: sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.divproduto {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 201px;
+    height: 250px;	
+    padding: auto;
+}
+
+.divbanheiro {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 201px;
+    height: 440px;	
+    padding: auto;
+}
+
+.divcozinha {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 201px;
+    height: 420px;	
+    padding: auto;
+}
+
+.divtapetes {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 201px;
+    height: 420px;	
+    padding: auto;
+}
+
+.divoutros {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 201px;
+    height: 440px;	
+    padding: auto;
+} 
+
+.divpersonalize {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 300px;
+    height: 1740px;	
+    padding: auto;
+}
+
+.divpersonalize2 {
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 250px;
+    height: 150px; 
+    padding: auto;
+}
+.divpersonalize1 {
+    background-color: red;
+    width: 900px;
+    height: 900px;
+}
+
+.divpersonalize3 {
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 250px;
+    height: 325px; 
+    padding: auto;
+}
+
+.divpersonalize4 {
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 250px;
+    height: 140px; 
+    padding: auto;
+}
+
+.divpersonalize4:hover{
+    background-color: red;
+}
+
+.divpersonalize3:hover {
+    background-color: red;
+}
+
+.divpersonalize2:hover {
+    background-color: red;
+}
+
+.divpersonalizetipoproduto {
+    background-color: red;
+    float: left;
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    background-color: red;
+    width: 201px;
+    height: 310px;
+    padding: auto;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.divpersonalizetipoproduto:hover{
+    background-color: red;
+}
+
+.imgdivpersonalize1 {
+    width: 200px;
+    height: 200px;
+
+}
+
+.divpersonalize1:hover {
+    background-color: red;
+}
+
+.botao {
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: pink;
+    width: 100px;
+    height: 30px;	
+    padding: auto;
+    font-size: 18px;
+}
+
+.botao:hover {
+	background-color: white;
+}
+
+.divdestaques {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 900px;
+    height: 400px;	
+    padding: auto;
+}
+
+.divdestaques:hover {
+	background-color: red;
+}
+
+.imgdestaques{
+    width: 900px;
+    height: 400px;
+}
+
+.divsobre {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 230px;
+    height: 150px;	
+    padding: auto;
+}
+
+.divsobre:hover {
+	background-color: red;
+	}
+
+.divcadastrocompra {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 200px;
+    height: 675px;	
+    padding: auto;
+}
+
+.divcadastrocompra:hover {
+	background-color: red;
+}
+
+.divsucessocompra {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 400px;
+    height: 90px;	
+    padding: auto;
+
+}
+.divsucessocompra:hover {
+	background-color: red;
+}
+
+.divsucessosolicitacao {
+	display: inline-block;
+	border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    margin: auto;
+    background-color: red;
+    width: 400px;
+    height: 70px;	
+    padding: auto;
+
+}
+
+.divcontatos {
+	margin: auto;
+	padding-left: 10px;
+}
+
+.divcontatos:hover {
+	background-color: red;
+
+}
+
+.divsucessosolicitacao:hover {
+	background-color: red;
+}
+
+div:hover {
+	background-color: black;
+}

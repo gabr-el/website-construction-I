@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Personalize</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="icon" href="imagens/real.png">
+</head>
+<body>
+	<header>
+		<img src="imagens/real.png">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="real_confeccoes.html">Página Inicial</a></li>
+
+		</ul>
+	</nav>
+	<section>
+		<p>PERSONALIZE</p>
+		<div class="divpersonalize">
+		<form action="solicitacao.html">
+			<p>Tipo do produto:</p>
+			<p>Conjunto de Banheiro</p><input type="radio" name="tipoproduto" value="conjuntobanheiro" checked required>
+			<p>Conjunto de Cozinha</p><input type="radio" name="tipoproduto" value="conjuntocozinha" required>
+			<p>Tapetes</p><input type="radio" name="tipoproduto" value="tapete" required>
+			<p>Caminho de Mesa</p><input type="radio" name="tipoproduto" value="caminhomesa" required>
+			<p>Capa D'agua</p><input type="radio" name="tipoproduto" value="capadagua"required>
+			<p>Estampa:</p><br><input class="botao" type="file" name="estampa" accept="image/*" required>
+			<p>Tipo de tecido:</p>
+			<p>Fofão</p><input type="radio" name="tipotecido" value="fofao" checked required>
+			<p>Outro</p><input type="radio" name="tipotecido" value="outro" require>
+			<p>Quantidade(min: 20):</p><input type="number" name="quantidade" required="20">
+			<p>Email:</p><input type="email" name="email_orcamento"><br><br>
+			<input class="botao" type="submit" value="Solicitar">
+		</div>
+		</form>
+	</section>
+	<footer>
+		<p>Real Confecções Têxteis - 2019 &reg Desenvolvido por Daiane Santana e Gabriel Olra.</p>
+	</footer>
+</body>
+</html>
